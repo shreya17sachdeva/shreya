@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form Input Tags</title>
+</head>
+<body>
+<form>
+<!-- file upload -->
+<h3>Form Input Tags</h3>
+<p><b>Submit your documents for exam:</b></p>
+<br>
+
+<label>upload your birth cerficate:</label>
+<input type="file" name="fileupload">
+<!-- allow to choose single file-->
+<br>
+
+<label>upload your verfied documents:</label>
+<input type="file" name="docs" multiple>
+<!-- allow to choose multiple files -->
+<br>
+
+<label>upload your image:</label>
+<input type="file" name="mediafile" accept="audio*video*image*">
+<!-- image file option -->
+<br>
+
+<input type="submit" name="submit" value="SUBMIT">
+<!-- submit button -->
+<br>
+
+<!-- types of button option -->
+<!-- reset button -->
+<label>to reset your documents..click on</label>
+<input type="reset" name="reset" value="RESET">
+<br>
+
+<!-- okay button -->
+<label>click on okay to save and continue:</label>
+<input type="button" name="okay" value="OK">
+<br>
+
+<!-- image button -->
+<label>If you are not a robot click on the image:</label>
+<br>
+<input type="image" name="imagebutton" src="/shreya.jpg" height="123px">
+<!-- It will be a clickable image button -->
+
+</form>
+</body>
+</html>
